@@ -24,7 +24,7 @@ export default function Auth(){
             {islogin ? (
                 <LoginForm
                 changeForm = {changeForm}/>
-                //Else... registerform
+                //else... registerform
             ):(
                 <RegisterForm
                 changeForm = {changeForm}/>
